@@ -101,3 +101,7 @@ function TabsCfg()
   set shiftwidth=4
 endfunction
 
+"" LaTeX stuff:
+" vim-latex-live-preview settings
+autocmd Filetype tex setl updatetime=1
+let g:livepreview_previewer = 'okular'
