@@ -1,0 +1,3 @@
+[submodule "my_plugins/vim-rtags"]
+	path = my_plugins/vim-rtags
+	url = git@github.com:lyuts/vim-rtags.git
