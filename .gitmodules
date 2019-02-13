@@ -1,3 +1,12 @@
 [submodule "my_plugins/vim-rtags"]
 	path = my_plugins/vim-rtags
 	url = git@github.com:lyuts/vim-rtags.git
+[submodule "my_plugins/vim-plyglot"]
+	path = my_plugins/vim-plyglot
+	url = git@github.com:sheerun/vim-polyglot.git
+[submodule "my_plugins/neocomplete.vim"]
+	path = my_plugins/neocomplete.vim
+	url = git@github.com:Shougo/neocomplete.vim.git
+[submodule "my_plugins/onedark.vim"]
+	path = my_plugins/onedark.vim
+	url = git@github.com:joshdick/onedark.vim.git
