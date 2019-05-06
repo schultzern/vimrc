@@ -1,15 +1,21 @@
 [submodule "my_plugins/vim-rtags"]
-	path = my_plugins/vim-rtags
-	url = git@github.com:lyuts/vim-rtags.git
+    path = my_plugins/vim-rtags
+    url = git@github.com:lyuts/vim-rtags.git
 [submodule "my_plugins/vim-plyglot"]
-	path = my_plugins/vim-plyglot
-	url = git@github.com:sheerun/vim-polyglot.git
+    path = my_plugins/vim-plyglot
+    url = git@github.com:sheerun/vim-polyglot.git
 [submodule "my_plugins/neocomplete.vim"]
-	path = my_plugins/neocomplete.vim
-	url = git@github.com:Shougo/neocomplete.vim.git
+    path = my_plugins/neocomplete.vim
+    url = git@github.com:Shougo/neocomplete.vim.git
 [submodule "my_plugins/onedark.vim"]
-	path = my_plugins/onedark.vim
-	url = git@github.com:joshdick/onedark.vim.git
+    path = my_plugins/onedark.vim
+    url = git@github.com:joshdick/onedark.vim.git
 [submodule "my_plugins/vim-latex-live-preview"]
-	path = my_plugins/vim-latex-live-preview
-	url = git@github.com:xuhdev/vim-latex-live-preview.git
+    path = my_plugins/vim-latex-live-preview
+    url = git@github.com:xuhdev/vim-latex-live-preview.git
+[submodule "my_plugins/vim-flog"]
+    path = my_plugins/vim-flog
+    url = git@github.com:rbong/vim-flog.git
+[submodule "my_plugins/vim-bitbake"]
+    path = my_config/vim-bitbake
+    url = git@github.com:kergoth/vim-bitbake.git
