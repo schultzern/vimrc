@@ -8,14 +8,11 @@ colorscheme onedark
 " Set in terminal
 
 " Div 
-set number                           " Show line numbers in the gutter
-set completefunc=RtagsCompleteFunc   " Use RTags autocomplete
-set list
-
-" Show invisibles for eol, tab trail etc.
-" To unset: ":set nolist"
+set number      " Show line numbers in the gutter
+set list        " Show invisibles for eol, tab trail etc.
+                " which characters to use is defined below
 set listchars=eol:$,tab:>-,trail:¤,extends:>,precedes:<
-" set list
+                " To unset: ":set nolist"
 
 " syntax on
 " set syntax=whitespace
@@ -45,9 +42,6 @@ set mouse=a
 " Set clipboard to system clipboard
     set clipboard=unnamedplus
 
-" RTags
-set completefunc=RtagsCompleteFunc
-let g:rtagsUseLocationList = 0
 
 " Config Syntastic for c++
 let g:syntastic_check_on_wq = 0
@@ -60,7 +54,10 @@ let g:syntastic_cpp_checkers = ['cppcheck', 'clang_check']
 let g:syntastic_cpp_include_dirs = [ '../inc', 'inc', '../include', 'include']
 let g:syntastic_cpp_check_header = 1
 
-" Neocomplete
+" RTags configuration
+set completefunc=RtagsCompleteFunc
+let g:rtagsUseLocationList = 0
+" Neocomplete function for RTags
 function! SetupNeocomleteForCppWithRtags()
     " Enable heavy omni completion.
     setlocal omnifunc=RtagsCompleteFunc
@@ -73,7 +70,7 @@ function! SetupNeocomleteForCppWithRtags()
     set completeopt+=longest,menuone
 endfunction
 
-autocmd FileType cpp,cc,c call SetupNeocomleteForCppWithRtags()
+autocmd FileType cpp,cc,c,h,hpp call SetupNeocomleteForCppWithRtags()
 
 " Add line for 110 characters to keep code simple!
 " set colorcolumn=110
@@ -105,3 +102,7 @@ endfunction
 " vim-latex-live-preview settings
 autocmd Filetype tex setl updatetime=1
 let g:livepreview_previewer = 'okular'
+
+"" NERDTree
+"  Keep it on the left
+let g:NERDTreeWinPos = "left"
