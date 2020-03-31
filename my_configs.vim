@@ -40,8 +40,7 @@ set nofoldenable
 set mouse=a
 
 " Set clipboard to system clipboard
-    set clipboard=unnamedplus
-
+set clipboard=unnamedplus
 
 " Config Syntastic for c++
 let g:syntastic_check_on_wq = 0
@@ -106,3 +105,4 @@ let g:livepreview_previewer = 'okular'
 "" NERDTree
 "  Keep it on the left
 let g:NERDTreeWinPos = "left"
+let g:NERDTreeShowHidden = "1"
