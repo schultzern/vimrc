@@ -1,6 +1,6 @@
 [submodule "my_plugins/vim-rtags"]
     path = my_plugins/vim-rtags
-    url = git@github.com:lyuts/vim-rtags.git
+    url = git@github.com:schultzern/vim-rtags.git
 [submodule "my_plugins/vim-plyglot"]
     path = my_plugins/vim-plyglot
     url = git@github.com:sheerun/vim-polyglot.git
@@ -17,5 +17,5 @@
     path = my_plugins/vim-flog
     url = git@github.com:rbong/vim-flog.git
 [submodule "my_plugins/vim-bitbake"]
-	path = my_plugins/vim-bitbake
-	url = git@github.com:kergoth/vim-bitbake.git
+    path = my_plugins/vim-bitbake
+    url = git@github.com:kergoth/vim-bitbake.git
