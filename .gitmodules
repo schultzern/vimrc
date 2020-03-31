@@ -17,5 +17,5 @@
     path = my_plugins/vim-flog
     url = git@github.com:rbong/vim-flog.git
 [submodule "my_plugins/vim-bitbake"]
-    path = my_config/vim-bitbake
-    url = git@github.com:kergoth/vim-bitbake.git
+	path = my_plugins/vim-bitbake
+	url = git@github.com:kergoth/vim-bitbake.git
