@@ -19,3 +19,6 @@
 [submodule "my_plugins/vim-bitbake"]
     path = my_plugins/vim-bitbake
     url = git@github.com:kergoth/vim-bitbake.git
+[submodule "my_plugins/compiler-explorer"]
+    path = my_plugins/compiler-explorer
+    url = https://github.com/ldrumm/compiler-explorer.vim.git
